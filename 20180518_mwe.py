@@ -158,3 +158,4 @@ flight_df   = data_extraction(result)
 
 # Output
 print(flight_df.head())
+flight_df.to_csv(path_or_buf='flight_data.csv')
