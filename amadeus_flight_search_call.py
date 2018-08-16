@@ -77,3 +77,5 @@ result_affiliate = flight_affiliate_call(data_affil, token)
 print(result_affiliate['meta'])
 print(result_affiliate['request_id'])
 print(result_affiliate['results'][1])
+
+# Merge with flight_data.py
